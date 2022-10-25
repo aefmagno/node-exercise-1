@@ -44,6 +44,5 @@ if (argv.length === 4 || argv.length === 5) {
     }
   })
 } else {
-  console.log(argv.length)
   console.log('Invalid Argument Count.')
 }
