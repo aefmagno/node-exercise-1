@@ -39,7 +39,7 @@ if (argv.length === 4 || argv.length === 5) {
     while ((data = stdin.read()) !== null) {
       const stringData = data.toString().split('\n')
       for (let i = 0, ctr = 1; i < stringData.length; i += 1, ctr += 1) {
-        console.log(`${ctr} ${stringData[i]}`)
+        console.log(`${ctr}: ${stringData[i]}`)
       }
     }
   })
